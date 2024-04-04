@@ -461,7 +461,5 @@ class MainActivity : AppCompatActivity(), NfcAdapter.ReaderCallback {
                     + Utils.toHex(response)) }
             isoDep.close()
         }
-
-
     }
 }
